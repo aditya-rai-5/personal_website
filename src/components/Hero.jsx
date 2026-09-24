@@ -48,14 +48,14 @@ export default function Hero() {
         </motion.div>
         
         <motion.div variants={itemVariants} className="stat-strip">
-          <div className="stat">
+          <a href="https://codeforces.com/profile/aditya-rai-5" target="_blank" rel="noopener noreferrer" className="stat" style={{ textDecoration: 'none' }}>
             <span className="num">1992</span>
             <span className="label">CODEFORCES <br/> CANDIDATE MASTER</span>
-          </div>
-          <div className="stat">
+          </a>
+          <a href="https://leetcode.com/u/aditya_rai_5" target="_blank" rel="noopener noreferrer" className="stat" style={{ textDecoration: 'none' }}>
             <span className="num">1900+</span>
             <span className="label">LEETCODE <br/> KNIGHT</span>
-          </div>
+          </a>
           <div className="stat">
             <span className="num">50+</span>
             <span className="label">ALPHAS <br/> WORLDQUANT</span>
