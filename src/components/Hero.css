@@ -71,3 +71,13 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
+@media (max-width: 640px) {
+  .hero { padding-top: 100px; }
+  .hero h1 { font-size: 38px; gap: 14px !important; }
+  .hero h1 svg { width: 32px; height: 32px; }
+  .hero .actions { margin-bottom: 40px; }
+  .stat-strip { flex-direction: column; border-left: none; border-right: none; }
+  .stat { padding: 16px; border-bottom: 1px solid rgba(212, 175, 55, 0.15) !important; }
+  .stat:last-child { border-bottom: none !important; }
+}

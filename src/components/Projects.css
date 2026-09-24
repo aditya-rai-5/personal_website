@@ -37,6 +37,14 @@
   }
 }
 
+@media (max-width: 600px) {
+  .project-card {
+    padding: 24px 20px;
+    gap: 20px;
+  }
+  .project-card ul { padding-left: 14px; font-size: 14.5px; }
+}
+
 .project-card:hover {
   box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6), 0 0 40px rgba(202, 161, 75, 0.1);
 }

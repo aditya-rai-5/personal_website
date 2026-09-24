@@ -47,6 +47,13 @@
   font-family: 'JetBrains Mono', monospace; 
 }
 
+@media (max-width: 600px) {
+  .edu-row { grid-template-columns: 1fr; text-align: left; gap: 6px; padding: 16px 16px; }
+  .edu-row .score, .edu-row .year { text-align: left; grid-column: 1; margin-top: 0; }
+  .edu-row .score { color: var(--muted); font-size: 13.5px; }
+  .edu-row .year { font-size: 12px; }
+}
+
 .er-bg-watermark {
   position: absolute;
   top: 50%;
