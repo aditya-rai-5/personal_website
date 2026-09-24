@@ -89,7 +89,7 @@ export default function Projects() {
         <><strong>Secure media and payments.</strong> Implemented private video and PDF uploads to AWS S3 using multer-s3 (500 MB video and 20 MB PDF limits, MIME filtering) and 1-hour pre-signed URLs for playback. Integrated Razorpay with HMAC-SHA256 payment signature verification and an automated 80/20 instructor revenue split with a payout-request flow.</>,
         <><strong>API design, security and testing.</strong> Designed a modular REST API with about 20 domain modules, Prisma migrations, JWT auth with role-based access (Student/Instructor/Admin), and Helmet. It uses express-rate-limit (100 requests per 15 minutes globally, 10 per 15 minutes on login/register). It has about 65 Vitest/Supertest tests and is Dockerized (Postgres, backend, frontend via Docker Compose).</>
       ],
-      link: "https://github.com/aditya-rai-5?tab=repositories",
+      link: "https://github.com/aditya-rai-5/learning_ai",
       icon: (
         <svg className="glyph" viewBox="0 0 44 44" fill="none">
           <circle cx="10" cy="10" r="4" stroke="#caa14b" strokeWidth="1.6"/>
@@ -112,7 +112,7 @@ export default function Projects() {
         "Developed a multithreaded scraper (BeautifulSoup, Camelot, PyPDF2; retry with backoff, per-domain rate limiting) for HTML and PDF tables, with a weekly GitHub Actions refresh.",
         "Built a FastAPI backend with JWT auth, bcrypt, SendGrid OTP email verification and MongoDB-backed chat history, deployed with Docker Compose alongside a React frontend."
       ],
-      link: "https://github.com/aditya-rai-5?tab=repositories",
+      link: "https://github.com/KK-Singh333/IITI_BOT",
       icon: (
         <svg className="glyph" viewBox="0 0 44 44" fill="none">
           <rect x="6" y="14" width="10" height="10" rx="2" stroke="#9c3a2b" strokeWidth="1.6"/>
@@ -132,7 +132,7 @@ export default function Projects() {
         "Snapshot voting prevents last-minute token manipulation during governance votes",
         "Cut deployment gas by 48.1% through struct packing and custom errors; Next.js + MetaMask frontend with IPFS-pinned contract source for pre-vote auditing"
       ],
-      link: "https://github.com/aditya-rai-5?tab=repositories",
+      link: "https://github.com/KK-Singh333/HashBandits",
       icon: (
         <svg className="glyph" viewBox="0 0 44 44" fill="none">
           <circle cx="12" cy="12" r="5" stroke="#caa14b" strokeWidth="1.6"/>
