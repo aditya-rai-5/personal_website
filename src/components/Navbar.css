@@ -32,6 +32,7 @@
 }
 
 @media (max-width: 640px) { 
-  .navbar { gap: 14px; padding: 10px 16px; max-width: 92vw; overflow-x: auto; } 
+  .navbar { gap: 14px; padding: 10px 16px; max-width: 92vw; overflow-x: auto; scrollbar-width: none; } 
+  .navbar::-webkit-scrollbar { display: none; }
   .navbar .brand { display: none; } 
 }

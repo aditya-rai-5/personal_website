@@ -73,10 +73,18 @@
 }
 
 @media (max-width: 640px) {
-  .hero { padding-top: 100px; }
-  .hero h1 { font-size: 38px; gap: 14px !important; }
+  .hero { padding-top: 130px; justify-content: flex-start; }
+  .hero .kicker { 
+    font-size: 11.5px; 
+    line-height: 1.6; 
+    margin-bottom: 16px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .hero h1 { font-size: 38px; gap: 12px !important; justify-content: center; }
   .hero h1 svg { width: 32px; height: 32px; }
-  .hero .actions { margin-bottom: 40px; }
+  .hero p.lede { font-size: 16px; text-align: center; margin: 0 auto 36px; }
+  .hero .actions { margin-bottom: 40px; justify-content: center; }
   .stat-strip { flex-direction: column; border-left: none; border-right: none; }
   .stat { padding: 16px; border-bottom: 1px solid rgba(212, 175, 55, 0.15) !important; }
   .stat:last-child { border-bottom: none !important; }
