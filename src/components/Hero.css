@@ -1,0 +1,73 @@
+.hero { 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  padding-top: 120px; 
+}
+.hero .kicker { 
+  color: var(--gold); 
+  font-size: 13.5px; 
+  margin: 0 0 22px; 
+  letter-spacing: 0.06em; 
+}
+.hero h1 {
+  font-size: clamp(46px, 8vw, 88px);
+  line-height: 1.03; 
+  font-weight: 700; 
+  margin: 0 0 26px; 
+  max-width: 14ch;
+  text-shadow: 0 0 40px rgba(202,161,75,0.35);
+  animation: emberFlicker 6s ease-in-out infinite;
+}
+@keyframes emberFlicker {
+  0%,100% { text-shadow: 0 0 40px rgba(202,161,75,0.35); }
+  45% { text-shadow: 0 0 55px rgba(202,161,75,0.5); }
+  50% { text-shadow: 0 0 28px rgba(202,161,75,0.25); }
+  78% { text-shadow: 0 0 48px rgba(202,161,75,0.42); }
+}
+@media (prefers-reduced-motion: reduce) { .hero h1 { animation: none; } }
+
+.hero p.lede { 
+  font-size: clamp(17px,2vw,20px); 
+  color: var(--bone); 
+  max-width: 58ch; 
+  margin: 0 0 44px; 
+  font-style: italic; 
+}
+.hero .actions { 
+  display: flex; 
+  gap: 16px; 
+  flex-wrap: wrap; 
+  margin-bottom: 70px; 
+}
+
+.stat-strip { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 0px; 
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, transparent, rgba(212, 175, 55, 0.4), transparent) 1;
+}
+.stat { 
+  flex: 1 1 150px; 
+  padding: 24px 24px; 
+  text-align: center;
+  border: none !important;
+}
+.stat .num { 
+  font-family: 'Cinzel', serif; 
+  font-size: 28px; 
+  font-weight: 700;
+  color: var(--gold-bright); 
+  display: block; 
+  margin-bottom: 2px; 
+}
+.stat .label { 
+  font-size: 13px; 
+  color: var(--muted); 
+  font-family: 'EB Garamond', serif; 
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

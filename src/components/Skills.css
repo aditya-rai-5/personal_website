@@ -1,0 +1,21 @@
+.skills-grid { 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+}
+@media (max-width: 720px) { .skills-grid { grid-template-columns: 1fr; } }
+
+.skill-block { padding: 26px 28px; }
+.skill-block h4 { 
+  margin: 0 0 16px; 
+  font-size: 13px; 
+  color: var(--muted); 
+  font-weight: 500; 
+  font-family: 'JetBrains Mono', monospace; 
+}
+
+.skill-chips { display: flex; flex-wrap: wrap; gap: 9px; }
+.skill-chips .chip { 
+  color: var(--bone); 
+  background: rgba(255,255,255,0.04); 
+}

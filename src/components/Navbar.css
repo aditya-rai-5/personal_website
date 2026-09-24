@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed; 
+  top: 22px; 
+  left: 50%; 
+  transform: translateX(-50%) !important; /* Override framer motion for X centering if needed, or handle in initial */
+  z-index: 500; 
+  display: flex; 
+  align-items: center; 
+  gap: 26px;
+  padding: 13px 26px; 
+  border-radius: 999px; 
+  font-size: 14px;
+}
+.navbar .brand { 
+  font-family: 'Cinzel', serif; 
+  font-weight: 600; 
+  margin-right: 8px; 
+  color: var(--gold-bright); 
+  font-size: 14px; 
+  letter-spacing: 0.04em; 
+}
+.navbar a { 
+  color: var(--muted); 
+  font-family: 'Cinzel', serif; 
+  font-size: 13.5px; 
+  letter-spacing: 0.05em;
+  transition: all .3s ease; 
+}
+.navbar a:hover, .navbar a:focus-visible { 
+  color: var(--gold-bright); 
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+@media (max-width: 640px) { 
+  .navbar { gap: 14px; padding: 10px 16px; max-width: 92vw; overflow-x: auto; } 
+  .navbar .brand { display: none; } 
+}
