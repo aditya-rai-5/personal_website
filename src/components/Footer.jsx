@@ -21,7 +21,7 @@ export default function Footer() {
           <a className="btn ghost" href="https://linkedin.com/in/aditya-rai-685339344" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </motion.div>
-      <p className="foot-note">ADITYA RAI · IIT INDORE · FORGED WITH REACT THREE FIBER</p>
+      <p className="foot-note">ADITYA RAI · IIT INDORE · BUILT WITH REACT</p>
     </footer>
   );
 }

@@ -39,7 +39,7 @@ export default function Hero() {
         </motion.h1>
         
         <motion.p variants={itemVariants} className="lede">
-          An engineer forged in competition — retrieval systems, on-chain worlds, and AI that carries its own weight, built one merge at a time.
+          Software engineer passionate about building robust web applications, intelligent systems, and solving complex algorithmic problems.
         </motion.p>
         
         <motion.div variants={itemVariants} className="actions">
