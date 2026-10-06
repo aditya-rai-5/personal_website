@@ -4,8 +4,8 @@
   --gold: #8B7355; /* Tarnished Secondary */
   --gold-bright: #CBA65F; /* Muted Grace Gold */
   --crimson: #9c3a2b;
-  --bone: #E8E3D2; /* Parchment body text */
-  --muted: #a39c8c;
+  --bone: #FDFBF7; /* Brightened body text */
+  --muted: #CFCAC0; /* Brighter muted text */
   --panel: rgba(10, 10, 12, 0.7);
   --panel-strong: rgba(20, 20, 24, 0.85);
   --border: rgba(139, 115, 85, 0.45); /* Tarnished brass */

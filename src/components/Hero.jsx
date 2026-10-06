@@ -43,7 +43,7 @@ export default function Hero() {
         </motion.p>
         
         <motion.div variants={itemVariants} className="actions">
-          <a className="btn primary" href="#projects">Enter the Works</a>
+          <a className="btn primary" href="#projects">My Projects</a>
           <a className="btn ghost" href="mailto:aditya5748rai@gmail.com">Mailto</a>
         </motion.div>
         
