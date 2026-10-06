@@ -12,7 +12,7 @@ Welcome to the repository for my personal portfolio website!
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/aditya-rai-5/personal_website
    ```
 2. Navigate into the directory:
    ```bash
